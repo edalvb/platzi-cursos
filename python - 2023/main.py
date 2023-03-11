@@ -1,4 +1,4 @@
-user_option = input("Piedra, papel o tijera =>")
+user_option = input("Piedra, papel o tijera =>").lower()
 computer_option = 'piedra'
 
 if user_option == computer_option:
