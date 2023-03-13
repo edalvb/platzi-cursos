@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d269681-1478-4f40-b39f-db1e22e56c48" name="Changes" comment="clase 14">
-      <change afterPath="$PROJECT_DIR$/14_strings.py" afterDir="false" />
+    <list default="true" id="8d269681-1478-4f40-b39f-db1e22e56c48" name="Changes" comment="clase 17">
+      <change afterPath="$PROJECT_DIR$/17_crud.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18_tuples.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19_dict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_dict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21_while.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/22_for.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/23_loops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +43,11 @@
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
     "last_opened_file_path": "C:/Users/edalv/Documents/Programming/GitHub/platzi-cursos/python - 2023",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "show.migrate.to.gradle.popup": "false",
     "vue.rearranger.settings.migration": "true"
   }
@@ -49,7 +65,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678503889743</updated>
-      <workItem from="1678503890762" duration="2371000" />
+      <workItem from="1678503890762" duration="5414000" />
+      <workItem from="1678582699516" duration="12744000" />
     </task>
     <task id="LOCAL-00001" summary="clase 11">
       <created>1678504137623</created>
@@ -79,7 +96,28 @@
       <option name="project" value="LOCAL" />
       <updated>1678505391019</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="clase 15">
+      <created>1678506364717</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678506364717</updated>
+    </task>
+    <task id="LOCAL-00006" summary="clase 16">
+      <created>1678581299894</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678581299894</updated>
+    </task>
+    <task id="LOCAL-00007" summary="clase 17">
+      <created>1678582040266</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678582040266</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,14 +139,31 @@
     <MESSAGE value="clase 12" />
     <MESSAGE value="clase 13" />
     <MESSAGE value="clase 14" />
-    <option name="LAST_COMMIT_MESSAGE" value="clase 14" />
+    <MESSAGE value="clase 15" />
+    <MESSAGE value="clase 16" />
+    <MESSAGE value="clase 17" />
+    <option name="LAST_COMMIT_MESSAGE" value="clase 17" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python___2023$19_dict.coverage" NAME="19_dict Coverage Results" MODIFIED="1678593461320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python___2023$22_for.coverage" NAME="22_for Coverage Results" MODIFIED="1678665017271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python___2023$21_while.coverage" NAME="21_while Coverage Results" MODIFIED="1678659912846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python___2023$main.coverage" NAME="main Coverage Results" MODIFIED="1678667931046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python___2023$14_strings.coverage" NAME="14_strings Coverage Results" MODIFIED="1678506263710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python___2023$18_tuples.coverage" NAME="18_tuples Coverage Results" MODIFIED="1678586292157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python___2023$13_if.coverage" NAME="13_if Coverage Results" MODIFIED="1678504408900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python___2023$16_list.coverage" NAME="16_list Coverage Results" MODIFIED="1678581962108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python___2023$12_not.coverage" NAME="12_not Coverage Results" MODIFIED="1678504244172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python___2023$11_logic.coverage" NAME="11_logic Coverage Results" MODIFIED="1678504053242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python___2023$main.coverage" NAME="main Coverage Results" MODIFIED="1678505341138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python___2023$14_strings.coverage" NAME="14_strings Coverage Results" MODIFIED="1678506263710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python___2023$23_loops.coverage" NAME="23_loops Coverage Results" MODIFIED="1678666727313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python___2023$main1.coverage" NAME="main1 Coverage Results" MODIFIED="1678668494385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python___2023$15_indexing.coverage" NAME="15_indexing Coverage Results" MODIFIED="1678581266759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python___2023$10_float.coverage" NAME="10_float Coverage Results" MODIFIED="1678503947403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python___2023$13_if.coverage" NAME="13_if Coverage Results" MODIFIED="1678504408900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python___2023$20_dict.coverage" NAME="20_dict Coverage Results" MODIFIED="1678657266116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python___2023$17_crud.coverage" NAME="17_crud Coverage Results" MODIFIED="1678585299729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
